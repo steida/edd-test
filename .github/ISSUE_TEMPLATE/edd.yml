@@ -1,8 +1,8 @@
-name: Evolu Design Document (EDD)
+name: Evolu Evolution Proposal (EEP)
 description: A formal design for a proposed Evolu feature or change.
-title: "EDD-XXX: <Descriptive title>"
+title: "EEP-XXX: <Descriptive title>"
 
-labels: [edd, status: draft]
+labels: [eep]
 
 body:
   - type: textarea
@@ -30,9 +30,9 @@ body:
       required: true
 
   - type: textarea
-    id: references
+    id: links
     attributes:
-      label: References
-      placeholder: (Optional) Related EDDs, issues, discussions, or links.
+      label: Links
+      placeholder: Related EEPs, issues, discussions, or external resources.
     validations:
       required: false

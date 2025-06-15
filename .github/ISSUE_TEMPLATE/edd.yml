@@ -9,7 +9,7 @@ body:
     id: abstract
     attributes:
       label: Abstract
-      placeholder: Brief summary of the feature or change and its purpose.
+      placeholder: Brief summary of the feature or change.
     validations:
       required: true
 

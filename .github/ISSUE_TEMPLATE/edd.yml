@@ -1,44 +1,42 @@
 name: Evolu Design Document (EDD)
-description: Propose a change or addition to Evolu
-title: "EDD-XXX: <short title>"
+description: A formal design for a proposed Evolu feature or change.
+title: "EDD-XXX: <Concise title>"
+
 labels: [edd, status: draft]
+
 body:
-  - type: input
-    id: title
+  - type: textarea
+    id: what
     attributes:
-      label: Short Title
-      placeholder: Expiring CRDT Messages
+      label: What
+      description: What is this EDD about?
+      placeholder: Describe the feature or change this design proposes.
     validations:
       required: true
 
   - type: textarea
-    id: motivation
+    id: why
     attributes:
-      label: Motivation
-      placeholder: What problem does this solve?
+      label: Why
+      description: Why is this needed?
+      placeholder: Explain the problem this solves or the opportunity it enables.
     validations:
       required: true
 
   - type: textarea
-    id: proposal
+    id: how
     attributes:
-      label: Proposal
-      placeholder: Describe the design or behavior in detail
+      label: How
+      description: How will this be implemented?
+      placeholder: Outline the approach, technical steps, or affected parts of the system.
     validations:
       required: true
 
   - type: textarea
-    id: rationale
+    id: related
     attributes:
-      label: Rationale & Tradeoffs
-      placeholder: Why this design? What were the alternatives?
-    validations:
-      required: false
-
-  - type: textarea
-    id: compatibility
-    attributes:
-      label: Compatibility / Migration
-      placeholder: Will this break existing apps? How to migrate?
+      label: Related
+      description: Link to any related EDDs, issues, discussions, or resources.
+      placeholder: List any relevant context or prior work.
     validations:
       required: false

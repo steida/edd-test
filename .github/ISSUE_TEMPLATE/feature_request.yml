@@ -1,8 +1,6 @@
 name: Feature Request
 description: Suggest a new feature or enhancement
 title: "Feature: <short description>"
-labels: [feature, status: needs triage]
-assignees: []
 
 body:
   - type: textarea
